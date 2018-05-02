@@ -92,9 +92,79 @@ def logaritem_e(x):
 def logaritem(x, a):
     return math.log(x, a)
 
+## KOTNE FUNKCIJE ##############################################################
 
+def sinus(x):
+    return math.sin(x)
 
+def kosinus(x):
+    return math.cos(x)
 
+def tangens(x):
+    return math.tan(x)
+
+## INVERZI KOTNIH FUNKCIJ ######################################################
+
+def arc_sinus(x):
+    return math.asin(x)
+
+def arc_kosinus(x):
+    return math.acos(x)
+
+def arc_tangens(x):
+    return math.atan(x)
+
+## POTENCE ŠTEVILA 10 IN e #####################################################
+
+def potence_10(x):
+    return 10 ** x
+
+def potence_e(x):
+    return math.exp(x)
+
+## ŠTEVKE ######################################################################
+
+def ena():
+    print('1')
+
+def dva():
+    print('2')
+
+def tri():
+    print('3')
+
+def stiri():
+    print('4')
+
+def pet():
+    print('5')
+
+def sest():
+    print('6')
+
+def sedem():
+    print('7')
+
+def osem():
+    print('8')
+
+def devet():
+    print('9')
+
+def nic():
+    print('0')
+
+## VEJICA IN OKLEPAJI ######################################################################
+
+def vejica():
+    print('.')
+
+def oklepaj():
+    print('(')
+
+def zaklepaj():
+    print(')')
+    
 
 
 
