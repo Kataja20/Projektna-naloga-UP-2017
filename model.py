@@ -32,3 +32,15 @@ def fakulteta(x):
         return 2
     else:
         return x * fakulteta(x-1)
+
+def nPr(n, r):
+    if n <= 0 or r <= 0 or n < r:
+        return 'Error'
+    else:
+        return fakulteta(n) / fakulteta(n - r)
+
+def nCr(n, r):
+    if n <= 0 or r <= 0 or n < r:
+        return 'Error'
+    else:
+        return fakulteta(n) / (fakulteta(r) * fakulteta (n - r))
