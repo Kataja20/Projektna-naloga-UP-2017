@@ -166,7 +166,7 @@ def zaklepaj():
     print(')')
     
 
-
+## jfiaghiarid
 
 
     
