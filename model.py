@@ -1,5 +1,4 @@
 import random
-from program import *
 import tkinter as tk
 
 mat = [[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]]
