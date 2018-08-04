@@ -1,5 +1,14 @@
 import random
 
+### NAVODILA ###
+# Napiši ukaz: zacetek(mat), izberi smer, pritisni Enter
+# i = gor
+# j = levo
+# l = desno
+# k = dol
+
+
+
 mat = [[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]]
 
 indeksi = [0, 1, 2, 3]
