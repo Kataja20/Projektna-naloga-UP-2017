@@ -244,37 +244,37 @@ def izbira_smeri(mat):
     if izbira_igralca == 'i' and (prazni_prostor(mat) or enaki_sosedi(mat)):
         stara_mat = mat
         nova_mat = gor(mat)
-        stara_mat != nova_mat
-        nova_dvojka(nova_mat)
-        izpis(mat)
-        izbira_smeri(mat)
+        if (stara_mat != nova_mat) == 'True':
+            nova_dvojka(nova_mat)
+            izpis(mat)
+            izbira_smeri(mat)
             
     # igralec izbere DOL
     if izbira_igralca == 'k' and (prazni_prostor(mat) or enaki_sosedi(mat)):
         stara_mat = mat
         nova_mat = dol(mat)
-        stara_mat != nova_mat
-        nova_dvojka(nova_mat)
-        izpis(mat)
-        izbira_smeri(mat)
+        if (stara_mat != nova_mat) == 'True':
+            nova_dvojka(nova_mat)
+            izpis(mat)
+            izbira_smeri(mat)
             
     # igralec izbere LEVO
     if izbira_igralca == 'j' and (prazni_prostor(mat) or enaki_sosedi(mat)):
         stara_mat = mat
         nova_mat = levo(mat)
-        stara_mat != nova_mat
-        nova_dvojka(nova_mat)
-        izpis(mat)
-        izbira_smeri(mat)
+        if (stara_mat != nova_mat) == 'True':
+            nova_dvojka(nova_mat)
+            izpis(mat)
+            izbira_smeri(mat)
         
     # igralec izbere DESNO
     if izbira_igralca == 'l' and (prazni_prostor(mat) or enaki_sosedi(mat)):
         stara_mat = mat
         nova_mat = desno(mat)
-        stara_mat != nova_mat
-        nova_dvojka(nova_mat)
-        izpis(mat)
-        izbira_smeri(mat)
+        if (stara_mat != nova_mat) == 'True':
+            nova_dvojka(nova_mat)
+            izpis(mat)
+            izbira_smeri(mat)
         
           
 def izpis(mat):
